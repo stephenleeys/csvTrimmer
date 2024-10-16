@@ -59,6 +59,8 @@ def trim_and_sort(input_file):
     trimmed_df.to_csv(output_file, index=False)
     print(f'Truncated and sorted data saved to {output_file}')
 
+
+
 # Define the input folder
 input_folder = 'input'
 # List all files in the input folder
